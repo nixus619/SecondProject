@@ -1,0 +1,476 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 565900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Definition.beforePass()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Adding a new customer",
+        "description": "",
+        "id": "etl-load-job;adding-a-new-customer;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2012930,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Definition.CleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 495862870,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "an ETL Process job",
+            "match": {
+              "location": "Definition.loadETLFile()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 236126890,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "a \"John\" is added to ZCITY",
+            "match": {
+              "arguments": [
+                {
+                  "val": "John",
+                  "offset": 3
+                }
+              ],
+              "location": "Definition.addCustomer_ZCITY(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 198160830,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the \"John\" will be added to the target database",
+            "match": {
+              "arguments": [
+                {
+                  "val": "John",
+                  "offset": 5
+                }
+              ],
+              "location": "Definition.addToTarget(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 26291886220,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the integrity between the two databases remain",
+            "match": {
+              "location": "Definition.integrityCheck()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Pass"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 221050,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Definition.beforePass()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Adding a new customer",
+        "description": "",
+        "id": "etl-load-job;adding-a-new-customer;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1946460,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Definition.CleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 535560,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "an ETL Process job",
+            "match": {
+              "location": "Definition.loadETLFile()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 356582270,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "a \"Tim\" is added to ZCITY",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tim",
+                  "offset": 3
+                }
+              ],
+              "location": "Definition.addCustomer_ZCITY(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 258734230,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the \"Tim\" will be added to the target database",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tim",
+                  "offset": 5
+                }
+              ],
+              "location": "Definition.addToTarget(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15575024130,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the integrity between the two databases remain",
+            "match": {
+              "location": "Definition.integrityCheck()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Pass"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 376970,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Definition.beforePass()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Adding a new customer",
+        "description": "",
+        "id": "etl-load-job;adding-a-new-customer;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 10108420,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Definition.CleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 438120,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "an ETL Process job",
+            "match": {
+              "location": "Definition.loadETLFile()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 284478660,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "a \"Bill\" is added to ZCITY",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bill",
+                  "offset": 3
+                }
+              ],
+              "location": "Definition.addCustomer_ZCITY(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 193385820,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the \"Bill\" will be added to the target database",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bill",
+                  "offset": 5
+                }
+              ],
+              "location": "Definition.addToTarget(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19147447360,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the integrity between the two databases remain",
+            "match": {
+              "location": "Definition.integrityCheck()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Pass"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 269330,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Definition.beforeFail()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Duplicate Entry",
+        "description": "",
+        "id": "etl-load-job;duplicate-entry",
+        "after": [
+          {
+            "result": {
+              "duration": 1211790,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Definition.CleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1446930,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "a customer load file",
+            "match": {
+              "location": "Definition.load()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 233641360,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "a customer is added",
+            "match": {
+              "location": "Definition.addCustomer()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 200092410,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the data warehouse is checked for duplicates",
+            "match": {
+              "location": "Definition.checkDuplicates()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat stepDefinition.Definition.addCustometerDW(Definition.java:157)\r\n\tat ✽.the customer is added to the data warehouse(feature/Outline.feature:20)\r\n",
+              "duration": 4478060,
+              "status": "failed"
+            },
+            "line": 20,
+            "name": "the customer is added to the data warehouse",
+            "match": {
+              "location": "Definition.addCustometerDW()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Fail"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 118920,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Definition.beforeFail()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Data integrity",
+        "description": "",
+        "id": "etl-load-job;data-integrity",
+        "after": [
+          {
+            "result": {
+              "duration": 1448170,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Definition.CleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 332450,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "an ETL Process job",
+            "match": {
+              "location": "Definition.loadETLFile()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 246759170,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "a purchase is added to the source",
+            "match": {
+              "location": "Definition.addPurchase()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 205283120,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "a change occurs in the target",
+            "match": {
+              "location": "Definition.addTarget()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat stepDefinition.Definition.checkIntegrity(Definition.java:207)\r\n\tat ✽.an integrity check is made between the two databases(feature/Outline.feature:27)\r\n",
+              "duration": 15077769110,
+              "status": "failed"
+            },
+            "line": 27,
+            "name": "an integrity check is made between the two databases",
+            "match": {
+              "location": "Definition.checkIntegrity()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Fail"
+          }
+        ]
+      }
+    ],
+    "name": "ETL Load Job",
+    "description": "",
+    "id": "etl-load-job",
+    "keyword": "Feature",
+    "uri": "feature/Outline.feature",
+    "tags": []
+  }
+]

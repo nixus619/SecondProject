@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: runner.RunTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 80.098 sec <<< FAILURE!
+Duplicate Entry(ETL Load Job)  Time elapsed: 0.483 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at stepDefinition.Definition.addCustometerDW(Definition.java:157)
+	at ?.the customer is added to the data warehouse(feature/Outline.feature:20)
+
+Data integrity(ETL Load Job)  Time elapsed: 15.533 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at stepDefinition.Definition.checkIntegrity(Definition.java:207)
+	at ?.an integrity check is made between the two databases(feature/Outline.feature:27)
+

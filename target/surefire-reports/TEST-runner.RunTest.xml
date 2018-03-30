@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="5" failures="2" name="runner.RunTest" time="79.096" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="10+46"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-10\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Administrator\eclipse-workspace\myProject"/>
+    <property name="java.vm.vendor" value="&quot;Oracle Corporation&quot;"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Administrator\eclipse-workspace\myProject"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="10+46"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\1\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows Server 2012 R2"/>
+    <property name="classworlds.conf" value="C:\Users\Administrator\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8294507820011372236.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-10\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_161/bin/server;C:/Program Files/Java/jre1.8.0_161/bin;C:/Program Files/Java/jre1.8.0_161/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_161;C:\Users\Administrator\Desktop;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="54.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="10"/>
+    <property name="user.name" value="admin"/>
+    <property name="java.class.path" value="C:\Users\Administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.8.3.20180227-2135\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="10"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-10"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="10"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Administrator\eclipse-workspace\myProject\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2018-03-20"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.3"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="ETL Load Job" name="Adding a new customer" time="27.306"/>
+  <testcase classname="ETL Load Job" name="Adding a new customer" time="16.15"/>
+  <testcase classname="ETL Load Job" name="Adding a new customer" time="19.624"/>
+  <testcase classname="ETL Load Job" name="Duplicate Entry" time="0.483">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at stepDefinition.Definition.addCustometerDW(Definition.java:157)
+	at ✽.the customer is added to the data warehouse(feature/Outline.feature:20)
+</failure>
+    <system-out>
+  @Fail
+  Scenario: Duplicate Entry                           &amp;#27;[90m# feature/Outline.feature:16&amp;#27;[0m
+This message will show up 2 times for each scenario using the @Fail tag
+Begin load job
+    &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32ma customer load file&amp;#27;[0m                        &amp;#27;[90m# Definition.load()&amp;#27;[0m
+Customer added to ZCITY
+    &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32ma customer is added&amp;#27;[0m                          &amp;#27;[90m# Definition.addCustomer()&amp;#27;[0m
+1
+    &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mthe data warehouse is checked for duplicates&amp;#27;[0m &amp;#27;[90m# Definition.checkDuplicates()&amp;#27;[0m
+DW already contains customer
+    &amp;#27;[31mAnd &amp;#27;[0m&amp;#27;[31mthe customer is added to the data warehouse&amp;#27;[0m   &amp;#27;[90m# Definition.addCustometerDW()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at stepDefinition.Definition.addCustometerDW(Definition.java:157)
+	at ?.the customer is added to the data warehouse(feature/Outline.feature:20)
+&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="ETL Load Job" name="Data integrity" time="15.533">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at stepDefinition.Definition.checkIntegrity(Definition.java:207)
+	at ✽.an integrity check is made between the two databases(feature/Outline.feature:27)
+</failure>
+    <system-out>
+  @Fail
+  Scenario: Data integrity                                   &amp;#27;[90m# feature/Outline.feature:23&amp;#27;[0m
+This message will show up 2 times for each scenario using the @Fail tag
+Begin ETL Process job
+    &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32man ETL Process job&amp;#27;[0m                                 &amp;#27;[90m# Definition.loadETLFile()&amp;#27;[0m
+Customer added to Source
+    &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32ma purchase is added to the source&amp;#27;[0m                   &amp;#27;[90m# Definition.addPurchase()&amp;#27;[0m
+Purchase added to Target
+    &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32ma change occurs in the target&amp;#27;[0m                       &amp;#27;[90m# Definition.addTarget()&amp;#27;[0m
+The comparison failed
+    &amp;#27;[31mAnd &amp;#27;[0m&amp;#27;[31man integrity check is made between the two databases&amp;#27;[0m &amp;#27;[90m# Definition.checkIntegrity()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at stepDefinition.Definition.checkIntegrity(Definition.java:207)
+	at ?.an integrity check is made between the two databases(feature/Outline.feature:27)
+&amp;#27;[0m
+</system-out>
+  </testcase>
+</testsuite>
